@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style3.css">
+    <title>Hallo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hallo Najwa</h1>
+        <form id="love-form">
+            <label for="love-message">jujur mungkin aku yang terlalu geer atau apa tapi nyatanya aku nyaman dan kamu salah satu yang membuat aku termotivasi untuk bisa bermain gitar sampe sekarang dan bahkan kamu selalu menghargai apa yang aku capai, bahkan saat aku tertidur kadang aku selalu memimpikan kamu, bangun tidur dipagi hari dengan mimpi yang indah selalu membuatku lebih bersemangat, tetapi saat aku terdiam atau ngahuleng kwkwkw  aku mikir aku gk pantas buat dptin kamu, tapi aku selalu buat itu menjadi motivasi untuk merubah diriku sendiri menjadi lebih baik, dan mungkin kamu berpikir bahwa aku cuma main main untuk deketin kamu, jujur aja aku ragu karna aku sadar aku yang sekarang masih berketergantungan kepada orang tua, dan sekarang aku sedang berusaha mencari penghasilan sendiri, sebenernya aku gamau bikin kaya gini soalnya akan merubah kita menjadi lebih jauh dan enggan untuk berkommunikasi bahkan untuk menyapa, tapi gatau kenapa ada hal yang mengganjal dan aku harap setelah kamu baca ini kita akan tetap berkomunikasi dan saling menceritakan keseharian yang terjadi dan jika saat nanti kamu lulus kuliah dan masih berstatus sendiri aku akan mengejarmu, mungkin kamu berpikir kenapa tidak mengejar saat ini juga, tetapi prinsip hidupku pacaran hanya buang buang waktu dan karna haram aja sih wkwkwkwkw tapi ya..... kalo ada rezeki sih pinginnya langsung nikah aja biar gk keburu diambil sama orang lain, ah udhlah malah ngelantur gk jelas pokonya beruntung banget dipertemukan dengan seorang perempuan sepertimu. </label>
+            <textarea id="love-message" name="love-message" rows="4" placeholder="Bales disini ya..."></textarea>
+            <button type="button" onclick="sendMessage()">Kirim</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <audio autoplay controls loop>
+        <source src="/audio/y2mate.com - nadhif basalamah  penjaga hati Official Music Video.mp3" type="audio/mpeg">
+   
+       </audio>
+
+    <script>
+        function sendMessage() {
+            var loveMessage = document.getElementById('love-message').value;
+            var whatsappLink = 'https://wa.me/08886024770?text=' + encodeURIComponent(loveMessage);
+            window.location.href = whatsappLink;
+        }
+    </script>
+</body>
+</html>
