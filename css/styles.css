@@ -1,0 +1,29 @@
+
+
+img {
+  width: 600px;
+  height: 600px;
+}
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  
+}
+#gif {
+  /* Set the size and position of the gif */
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#gif {
+  width: 600px;
+  height: 600px;
+}         

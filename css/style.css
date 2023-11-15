@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/5c7fd992-505e-48df-ac36-a991b16c221d.jpg'); /* Ganti 'langit.jpg' dengan nama file gambar langit Anda */
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi */
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+}
+/* Ubah ukuran logo audio */
+audio {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* Hapus kontrol pemutaran lainnya */
+  audio::controls {
+    display: none;
+  }
+  
+  /* Tampilkan hanya logo play */
+  audio::-webkit-media-controls-play-button {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  /* Tambahkan efek hover */
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: orange;
+  }
+  
+.container {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi (dalam contoh ini, 0.6) */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi */
+    color: white;
+    padding: 10px;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-buttons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.2s;
+}
+
+.social-buttons img:hover {
+    transform: scale(1.2);
+}
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
