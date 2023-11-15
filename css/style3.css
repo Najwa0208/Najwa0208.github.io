@@ -1,0 +1,67 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('/img/5c7fd992-505e-48df-ac36-a991b16c221d.jpg'); /* Ganti 'langit.jpg' dengan nama file gambar langit Anda */
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8bbd0;
+    border: 1px solid #f06292;
+    border-radius: 4px;
+    display: none;
+}
+audio {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
